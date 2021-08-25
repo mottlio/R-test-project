@@ -1,0 +1,18 @@
+---
+title: "RBNZ lending data"
+author: "Michal Mottl"
+date: "26/08/2021"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readxl)
+```
+
+## Import Dataset
+
+```{r}
+rbnz_lending_data <- read_excel("rbnz_lending_data.xlsx")
+```
+
