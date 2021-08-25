@@ -8,6 +8,7 @@ output: word_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(readxl)
+library(tidyverse)
 ```
 
 ## Import Dataset
@@ -16,3 +17,4 @@ library(readxl)
 rbnz_lending_data <- read_excel("rbnz_lending_data.xlsx")
 ```
 
+##Pivot data
