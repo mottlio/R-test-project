@@ -9,6 +9,7 @@ output: word_document
 knitr::opts_chunk$set(echo = TRUE)
 library(readxl)
 library(tidyverse)
+library(purrrs)
 ```
 
 ## Import Dataset
